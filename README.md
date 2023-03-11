@@ -1,5 +1,7 @@
 # Relevance Feedback Search Engine
 
+![](https://img.shields.io/github/license/ulasonat/relevance-feedback-search-engine?color=red&logo=red&style=flat-square)
+
 This is a Python program that acts as a search engine using the Google Custom Search API. The program takes in a query and a precision, and returns a list of Google search results. It then prompts the user to mark the relevant documents and uses a feedback mechanism to perform a refined search. The program calculates the running sum of the relevant and non-relevant documents and uses a modified Rocchio algorithm to augment the query to improve its performance.
 
 ## Algorithm
