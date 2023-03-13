@@ -12,9 +12,9 @@ The program uses the following algorithms:
 
 Precision refers to the fraction of relevant documents returned by the search engine divided by the total number of documents returned. The program computes the precision value and stops if the precision value is above the given precision threshold.
 
-### Rocchio Algorithm
+### Rocchio's Algorithm
 
-The Rocchio algorithm is an algorithm for relevance feedback in information retrieval. It is a modified version of the k-nearest neighbors algorithm that uses weighted sums to improve the search results. Given the user’s feedback on relevant and non-relevant documents, the program first calculates the running sum of relevant and non-relevant documents, respectively. It then uses the Rocchio algorithm to compute the final vector representation of the query.
+The Rocchio's algorithm is an algorithm for relevance feedback in information retrieval. It is a modified version of the k-nearest neighbors algorithm that uses weighted sums to improve the search results. Given the user’s feedback on relevant and non-relevant documents, the program first calculates the running sum of relevant and non-relevant documents, respectively. It then uses the Rocchio algorithm to compute the final vector representation of the query.
 
 ### Order Generator
 
